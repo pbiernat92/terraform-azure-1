@@ -16,6 +16,7 @@ resource "azurerm_storage_account" "storage" {
   tags = {
   environment = "dev"
   project     = "terraform-learning"
+  owner       = "piotr"
 }
 }
 
